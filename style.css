@@ -214,34 +214,45 @@ button img{
     margin: 10px 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    /* CSS rules for viewport width 600px or less */
-    body {
-      font-size: 16px;
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768 pixels */
+    #main>h1 {
+        font-size: 24px;
     }
-    .container {
-      width: 100%;
+
+    #main>h1 span {
+        margin: 0 5px;
     }
-    .header {
-      padding: 10px 0;
+
+    #main>h1 span img {
+        height: 25px;
     }
-    .nav {
-      flex-direction: column;
+
+    #endec-div h3 {
+        font-size: 12px;
+        padding: 6px 4px;
     }
-    .nav a {
-      padding: 5px;
+
+    #encryption,
+    #decryption,
+    #result {
+        width: 100%;
     }
-    .banner {
-      height: 200px;
+
+    #result {
+        padding: 10px;
+        font-size: 14px;
     }
-    .products {
-      flex-wrap: wrap;
+
+    .footerbottom {
+        margin-top: 10px;
     }
-    .product {
-      width: 50%;
+
+    .footerbottom p {
+        font-size: 12px;
     }
-    #endec-div {
-        padding: auto;
-        width: 10%;
+
+    .designer {
+        margin: 5px;
     }
-  }
+}
