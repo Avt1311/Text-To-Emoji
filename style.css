@@ -240,4 +240,8 @@ button img{
     .product {
       width: 50%;
     }
+    #endec-div {
+        padding: auto;
+        width: 10%;
+    }
   }
